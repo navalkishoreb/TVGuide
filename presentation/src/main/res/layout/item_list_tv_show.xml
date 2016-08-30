@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+  <ImageView
+      android:id="@+id/item_image_view"
+      android:layout_width="wrap_content"
+      tools:src="@drawable/tv_show_image"
+      android:layout_height="wrap_content"
+      />
+
+  <TextView
+      android:id="@+id/item_title_text"
+      android:layout_alignBottom="@id/item_image_view"
+      android:layout_width="match_parent"
+      tools:text="Title of film"
+      android:layout_alignLeft="@id/item_image_view"
+      android:layout_alignRight="@id/item_image_view"
+      android:background="@color/item_title_text_background"
+      android:textSize="@dimen/item_text_size"
+      android:ellipsize="end"
+      android:gravity="center_horizontal"
+      android:maxLines="@integer/item_title_text_max_lines"
+      android:paddingTop="@dimen/item_title_text_padding"
+      android:paddingBottom="@dimen/item_title_text_padding"
+      android:paddingRight="@dimen/item_title_text_side_padding"
+      android:paddingLeft="@dimen/item_title_text_side_padding"
+      android:layout_height="wrap_content"
+      tools:ignore="RtlHardcoded"
+      />
+
+</RelativeLayout>

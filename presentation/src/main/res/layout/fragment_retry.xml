@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="@dimen/loading_view_top_margin"
+    tools:context="edu.navalkishoreb.tvguide.base.Retry"
+    >
+
+  <TextView
+      android:id="@+id/txt_retry_message"
+      android:layout_width="wrap_content"
+      android:gravity="center"
+      android:layout_centerHorizontal="true"
+      android:ellipsize="end"
+      android:layout_marginLeft="@dimen/loading_view_side_margin"
+      android:layout_marginRight="@dimen/loading_view_side_margin"
+      android:maxLines="@integer/loading_view_text_max_lines"
+      android:layout_height="wrap_content"
+      android:text="12132311asdasdasdadasdasdasd as asdasdasdasdsada23131313131332"
+      />
+  <Button
+      android:id="@+id/btn_retry"
+      android:layout_below="@id/txt_retry_message"
+      android:layout_centerHorizontal="true"
+      android:text="@string/btn_retry"
+      android:layout_width="wrap_content"
+      android:gravity="center"
+      android:layout_height="wrap_content"
+      />
+
+</RelativeLayout>

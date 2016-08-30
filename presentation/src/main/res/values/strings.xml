@@ -1,0 +1,19 @@
+<resources>
+  <string name="app_name">TV Guide</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="login_google_plus">Login with Google Plus</string>
+  <string name="tag_SocialLogin">tag_SocialLogin</string>
+  <string name="tag_LoggingView">tag_LoggingView</string>
+  <string name="key_current_view">key_currentView</string>
+  <string name="tag_LoginHeadlessApi">tag_LoginHeadlessApi</string>
+  <string name="login_loading_text">Logging in&#8230;</string>
+  <string name="btn_retry">Retry</string>
+  <string name="tag_Retry">tag_Retry</string>
+  <string name="tag_GoogleLoginHeadless">tag_GoogleLoginHeadless</string>
+  <string name="tag_FetchingView">tag_FetchingView</string>
+  <string name="tag_FetchTvShowsApi">tag_FetchTvShows</string>
+  <string name="fetching_loading_text">Fetching tv shows&#8230;</string>
+  <string name="tag_LisitingTvShows">tag_ListingTvShows</string>
+</resources>

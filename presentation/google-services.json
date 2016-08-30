@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "602947756636",
+    "project_id": "firebase-tv-guide"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602947756636:android:a16a44b11bc5b8f6",
+        "android_client_info": {
+          "package_name": "edu.navalkishoreb.tvguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602947756636-96ca63s003k74skrj0nn1m6bp3mlckdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.navalkishoreb.tvguide",
+            "certificate_hash": "A7778FC61CB455FFC4E1BD6B60AE2731596EC3F0"
+          }
+        },
+        {
+          "client_id": "602947756636-n6p9169e1omi5n3br665k99mfd58618k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvGVC2A_T8elEPl8HOBTtLZiutrHW0dM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
